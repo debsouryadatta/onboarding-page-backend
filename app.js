@@ -15,6 +15,9 @@ app.use(express.json()) // To get the req.body
 app.use(cors())
 
 // routes
+app.get('/',(req,res)=>{
+    res.end('working')
+})
 app.use('/api/v1/users', users)
 
 app.use(errorHandlerMiddleware);
