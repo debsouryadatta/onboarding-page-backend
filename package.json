@@ -1,11 +1,7 @@
 {
   "name": "onboarding",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
     "start": "nodemon app.js"
   },
@@ -19,5 +15,17 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debsouryadatta/onboarding-page-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debsouryadatta/onboarding-page-backend/issues"
+  },
+  "homepage": "https://github.com/debsouryadatta/onboarding-page-backend#readme",
+  "description": ""
 }
